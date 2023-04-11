@@ -1,0 +1,61 @@
+body{
+
+	margin: 0;
+}
+.main-box{
+	width: 80%;
+	margin: 0% auto;
+	border: 3px solid seagreen;
+	background-color: #36a9c612;
+}
+label{
+	font-size: 22px;
+padding: 10px;
+color: purple;
+}
+.first-name,.password,.phone,.email,.last-name {
+	font-size: 20px;
+	padding: 8px;
+	width: 39;
+	height: 18px;
+	box-shadow: 5px 5px 0px black;
+	transition-duration: 5s;
+}
+span{
+	color: red;
+}
+.message{
+	height: 105px;
+	width: 378px;
+	background-color: whitesmoke;
+	color: black;
+	padding: 5px 10px;
+	text-align: left;
+	margin: 5px 5px;
+}
+.reset:hover{
+	background-color: blue;
+	color: white;
+}
+.submit:hover{
+	background-color: yellow;
+	color: white;
+}
+table{
+	width: 70%;
+	border: 2px solid seagreen;
+	margin-bottom: 5px;
+}
+th,td{
+	border: 1px solid black;
+	text-align: center;
+}
+.first-name:hover, .password:hover,.phone:hover,.email:hover,.last-name:hover,.message:hover{
+	background-color: orange;
+	color: white;
+}
+td:hover{
+	background-color: black;
+	color: white;
+	box-shadow: 5px 5px 0px black;
+}
